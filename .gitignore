@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment outputs
+checkpoints/
+ckpt/
+logs/
+log/
+runs/
+outputs/
+results/
+experiments/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# Data (large datasets should not be tracked in git)
+datasets/
+data/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Tooling / editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
